@@ -1,9 +1,33 @@
-h1 {
-  color: rgb(255, 108, 132);
-  font-family: "Lora", serif;
+h1,
+h2 {
+  color: rgb(0, 0, 0);
+  font-family: "Roboto Mono", monospace;
 }
 
 p {
-  color: rgb(255, 108, 132);
-  font-family: "Lora", serif;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto Mono", monospace;
+}
+
+.hero {
+  background-color: rgba(230, 234, 241, 0.951);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero h1 {
+  font-size: 88px;
+  font-weight: bold;
+}
+
+.btn-dark {
+  background-color: black;
+  font-family: "Roboto Mono", monospace;
+  padding: 15px 30px;
+  color: rgba(230, 234, 241, 0.951);
 }
